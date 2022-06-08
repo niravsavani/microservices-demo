@@ -27,7 +27,7 @@
 
 steps:
 - id: 'Deploy application to cluster'
-  name: 'us-central1-docker.pkg.dev/halogen-proxy-337309/argocddemo'
+  name: 'gcr.io/halogen-proxy-337309/argocddemo'
   entrypoint: 'bash'
   args:
   - '-c'
