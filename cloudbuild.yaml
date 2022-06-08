@@ -27,7 +27,7 @@
 
 steps:
 - id: 'Deploy application to cluster'
-  name: 'gcr.io/k8s-skaffold/skaffold:v0.20.0'
+  name: 'us-central1-docker.pkg.dev/halogen-proxy-337309/argocddemo'
   entrypoint: 'bash'
   args:
   - '-c'
